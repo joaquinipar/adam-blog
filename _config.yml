@@ -10,16 +10,16 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
 author: Joaquin Ipar # add your name
-author-pic: adam-face.jpg
+author-pic: f1.jpg
 about-author: I'm Joaquin Ipar, Systems Engineering Student
 
 # Contact links
-email: # Add your Email address
+email: joaquin.ipar@gmail.com # Add your Email address
 phone: # Add your Phone number
-website: # Add your website, do not add http://
+website: joaquinipar.github.io/blog/ # Add your website, do not add http://
 linkedin: # Add your Linkedin handle
-github: artemsheludko # Add your Github handle
-twitter: '@artemsheludko_' # Add your Twitter handle
+github: joaquinipar # Add your Github handle
+twitter: 'joa_8000' # Add your Twitter handle
 facebook: # Add your Facebook handle
 instagram: # Add your Instagram handle
 pinterest: # Add your Pinterest handle
