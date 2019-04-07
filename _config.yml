@@ -1,9 +1,7 @@
 title: My personal blog - Joaquin Ipar
 email: joaquin.ipar@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: # this means to ignore newlines until "baseurl:"
+  Programming, Economics, Videogames, Football, Motorsports. Those are the things that I most like. Check out my lasts posts!
 permalink: ':title/'
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -15,14 +13,14 @@ about-author: I'm Joaquin Ipar, Systems Engineering Student
 
 # Contact links
 email: # Add your Email address
-phone: # Add your Phone number
-website: # Add your website, do not add http://
-linkedin: # Add your Linkedin handle
-github: artemsheludko # Add your Github handle
-twitter: '@artemsheludko_' # Add your Twitter handle
-facebook: # Add your Facebook handle
-instagram: # Add your Instagram handle
-pinterest: # Add your Pinterest handle
+#phone: # Add your Phone number
+website: joaquinipar.github.io/blog/ # Add your website, do not add http://
+linkedin: joaquin-ipar-a7ba38163 # Add your Linkedin handle
+github: joaquinipar # Add your Github handle
+#twitter: '@artemsheludko_' # Add your Twitter handle
+#facebook: # Add your Facebook handle
+#instagram: # Add your Instagram handle
+#pinterest: # Add your Pinterest handle
 
 # Newsletter
 mailchimp: # Add your MailChimp form identifier.
@@ -31,7 +29,7 @@ mailchimp: # Add your MailChimp form identifier.
 discus_identifier: joaquinipar # Add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-136439731-1 # Google Analytics
 
 # Paginate
 paginate: 6

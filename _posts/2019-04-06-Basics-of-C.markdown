@@ -10,7 +10,7 @@ author: Joaquin Ipar # Add name author (optional)
 
 I want this post to be really straight foward. This is meant to be a memo. Hope its useful.
 
-##¿How to print in C?
+## ¿How to print in C?
 
 
 {% highlight c %}
@@ -82,11 +82,9 @@ while ( i<=100 ) {
 	printf(x);
 
 }
+{% endhighlight %}
 
 `i<=100` will be the condition of the while loop. The code will be repeating if the condition returns `True`. If the condition returns `False`, the loop will stop iterating.
-
-
-{% endhighlight %}
 
 ## Symbolic Constants
 
@@ -118,6 +116,8 @@ putchar(letter);
 
 
 {% endhighlight %}
+
+## File Copying
 
 
 
