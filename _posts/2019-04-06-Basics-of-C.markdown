@@ -119,5 +119,82 @@ putchar(letter);
 
 ## File Copying
 
+Let's say we want to loop until a End of File is reached.
+For that, C includes a special value. that's `EOF`. This value is unique, so it can't be confused with any real character.
+EOF is an integer defined in <stdio.h>,so we cannot store it in a char, we're going to use int.
+
+{% highlight c %}
+main()
+{
+int c;
+c = getchar();
+while (c != EOF) {
+putchar(c);
+c = getchar();
+}
+}
+{% endhighlight %}
+
+If you try this in your compiler, entering the value `EOF` won't do the job. You must press `F6` or `Ctrl+Z`, that's how you enter `EOF` on windows.
+
+## Array
+
+Really useful way to store more than a value in a variable.
+
+{% highlight c %}
+main(){
+	int fourNumbers[3];
+
+	fourNumbers[0]= 1
+	fourNumbers[1]= 2
+	fourNumbers[2]= 3
+	fourNumbers[3]= 4
+
+}
+
+{% endhighlight %}
+
+## Functions
+
+We've been using built-in functions as `getchar()` , `putchar()`. It's time to make our own functions.
+
+Functions have three parts: Prototype, Call and Declaration.
+
+Prototype: Informs compiler about function name, functions parameters and what it's going to return. Prototype always must be written above the main function. Specifing the parameters names, are an optional.
+
+Call: Informs compiler we're going to use the function.
+
+Declaration: Contains all the statements to be executed.
+
+{% highlight c %}
+#include <stdio.h>
+
+int power (int, int) */ Prototype of power function */
+
+main(){
+
+printf( "%d", power(2,4) );  */ Calling and printing the function*/
+
+}
+
+/* Declaring the function */
+int power(int base, int exponent)
+{
+	int result,i;
+	result=1;
+	
+ 	for (i=0 ; i < exponent ; i++){
+ 	
+ 	result = result*base;
+ 	
+ 	};
+ 	
+ 	return result;
+ }
+
+{% endhighlight %}
+
+
+
 
 
