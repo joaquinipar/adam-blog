@@ -8,7 +8,7 @@ tags: [Blog, Programming]
 author: Joaquin Ipar # Add name author (optional)
 ---
 
-I want this post to be really straight foward. This is meant to be a memo. Hope its useful.
+I want this post to be really straight forward. This is meant to be a memo. Hope it's useful.
 
 ## ¿How to print in C?
 
@@ -70,7 +70,7 @@ for (i=0 ; i<=100 ; i++){
 
 `i=0` represents the start of the loop. 
 `i<=100` means that i won't go higher than 100.
-`i++` means that the increment will be +1. I we wanted a higher number, we could write `i= i + x` been x the increment that we want.
+`i++` means that the increment will be +1. If we wanted a higher number, we could write `i= i + x` been x the increment that we want.
 
 ## While loop
 
@@ -119,9 +119,9 @@ putchar(letter);
 
 ## File Copying
 
-Let's say we want to loop until a End of File is reached.
-For that, C includes a special value. that's `EOF`. This value is unique, so it can't be confused with any real character.
-EOF is an integer defined in <stdio.h>,so we cannot store it in a char, we're going to use int.
+Let's say we want to loop until an End of File is reached.
+For that, C includes a special value, `EOF`. This value is unique, so it can't be confused with any real character.
+EOF is an integer defined in `<stdio.h>`, so we cannot store it in a char, we're going to use int.
 
 {% highlight c %}
 main()
@@ -135,11 +135,11 @@ c = getchar();
 }
 {% endhighlight %}
 
-If you try this in your compiler, entering the value `EOF` won't do the job. You must press `F6` or `Ctrl+Z`, that's how you enter `EOF` on windows.
+If you try this in your compiler, entering the value `EOF` won't do the job. You must press `F6` or `Ctrl+Z`, that's how you enter `EOF` on Windows.
 
 ## Array
 
-Really useful way to store more than a value in a variable.
+A really useful way to store more than a value in a variable.
 
 {% highlight c %}
 main(){
@@ -160,7 +160,7 @@ We've been using built-in functions as `getchar()` , `putchar()`. It's time to m
 
 Functions have three parts: Prototype, Call and Declaration.
 
-Prototype: Informs compiler about function name, functions parameters and what it's going to return. Prototype always must be written above the main function. Specifing the parameters names, are an optional.
+Prototype: Informs compiler about function name, functions parameters and what it's going to return. Prototype always must be written above the main function. Specifying the parameters names, are optional.
 
 Call: Informs compiler we're going to use the function.
 
