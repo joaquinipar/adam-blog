@@ -22,9 +22,9 @@ main () {
 }
 {% endhighlight %}
 
-## ¿How to input/output data?
+## ¿How does C input/output data?
 
-We use the standard input/output library
+We're able to do it thanks to the standard input/output library `<stdio.h>`.
 
 {% highlight c %}
 #include <stdio.h>
@@ -109,9 +109,9 @@ To input and print a single character (char) we are provided with getchar and pu
 
 {% highlight c %}
 
-/* here we are inputing a letter to a variable * /
+/* we are inputting a letter to a variable */
 letter = getchar();
-/* now let's print it * /
+/* now lets print it */
 putchar(letter);
 
 
@@ -169,11 +169,11 @@ Declaration: Contains all the statements to be executed.
 {% highlight c %}
 #include <stdio.h>
 
-int power (int, int) */ Prototype of power function */
+int power (int, int) /* Prototype of power function */
 
 main(){
 
-printf( "%d", power(2,4) );  */ Calling and printing the function*/
+printf( "%d", power(2,4) );  /* Calling and printing the function*/
 
 }
 
