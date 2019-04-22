@@ -194,7 +194,63 @@ int power(int base, int exponent)
 
 {% endhighlight %}
 
+## Type Conversions
 
+In general, if an operator like + or * that takes two operands (a binary operator) has operands of different types, the ''lower'' type is promoted to the ''higher'' type before the operation proceeds
+
+For Example:
+If we sum an int to a float, the int will be converted to a float.
+
+Hopefully, C does this by itself and let us focus on more important problems.
+
+## Increment and Decrement Operators
+
+C includes two special operators `++` and `--`, they act as an adder and subtractor respectively. These operators can be used as prefix or postfix operators.
+
+{% highlight c %}
+
+int a,b,c;
+
+c=12
+
+while (a > b){
+
+	b++; // Adds 1 to b.
+	--c; // Subtracts 1 from c
+}
+
+{% endhighlight %}
+
+## Conditional Expressions
+
+
+The statements will compute the maximum between a and b. 
+
+{% highlight c %}
+
+int a=5;
+int b=3;
+int result;
+
+if (a > b) {
+	result = a;
+}
+else {
+	result = b;
+}
+
+return result;
+{% endhighlight %}
+
+There's an alternative version for the if/else statement, the Ternary Operator `:?`
+
+{% highlight c %}
+
+result = a > b :? a : b ;
+
+{% endhighlight %}
+
+It's true that the traditional if/else statement will be more readable for people watching our code, but it's good to know about `:?` existence.
 
 
 
