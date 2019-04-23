@@ -8,7 +8,8 @@ tags: [Blog, Programming]
 author: Joaquin Ipar # Add name author (optional)
 ---
 
-I want this post to be really straight forward. This is meant to be a memo. Hope it's useful.
+This post will briefly cover the Basics of C. This is a summary of what I consider important.
+Let's start from the beggining. 
 
 ## ¿How to print in C?
 
