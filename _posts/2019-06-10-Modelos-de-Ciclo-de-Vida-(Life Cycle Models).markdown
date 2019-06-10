@@ -5,11 +5,10 @@ date:   2019-06-10 18:17:20 +0300
 description: Métodos para construir software confiable.
 Photo by Kaleidico on Unsplash # Add post description (optional)
 img: whiteboard-planning.jpg # Add image post (optional)
-tags: [Blog, Programming,Análisis de Sistemas,Systems Analysis]
+tags: [Blog, Programming, Análisis de Sistemas, Systems Analysis]
 author: Joaquin Ipar # Add name author (optional)
 ---
-
-###Ciclos de Vida
+##Ciclos de Vida
 
 Contenidos
 
@@ -54,7 +53,7 @@ En otros modelos, se podría detectar tal error en etapas tempranas, y sería m�
 ##7.3 Spiral
 El modelo espiral es un ciclo de vida orientado al riesgo, que divide al software en pequeños proyectos. Cada pequeño proyecto se encarga de uno o más riesgos principales hasta que todos los riesgos se eliminen. Podemos entender a riesgo como requerimientos pobremente entendidos, arquitectura pobremente entendida, potenciales problemas de rendimiento, entre otros. Luego que los riesgos principales hayan sido solucionados, se utiliza un método de cascada.
 
- Se empieza en pequeña escala en el medio de la espiral, explora los riesgos, y hace un plan de como contenerlos, luego avanzar a la próxima iteración. Cada iteración amplia el proyecto a una escala superior.
+Se empieza en pequeña escala en el medio de la espiral, explora los riesgos, y hace un plan de como contenerlos, luego avanzar a la próxima iteración. Cada iteración amplia el proyecto a una escala superior.
 Cada iteración incluye seis casos, ilustrados en los bordes de la espiral.
 1.	Determinar objetivos, alternativas y restricciones.
 2.	Identificar y resolver riesgos.
@@ -133,6 +132,7 @@ Desventajas:
 Una alternativa puede ser comprar software listo para el uso. Este tipo de software raramente va a satisfacer las necesidades, pero tiene las siguientes ventajas:
 •	Está disponible inmediatamente.
 •	En el tiempo que compras el software listo, ya se le puede dar a los clientes algunas capacidades. Pueden aprender a trabajar con el producto, ver sus limitaciones. En ese tiempo se debería estar trabajando en el software modificado.
+
 
 
 
