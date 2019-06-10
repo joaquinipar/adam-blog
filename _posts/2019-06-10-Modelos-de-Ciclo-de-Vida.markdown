@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  Modelos de Ciclo de Vida (Life Cicle Models)
+title:  Modelos de Ciclo de Vida
 date:   2019-06-10 18:17:20 +0300
-description: Métodos para construir software confiable.
-Photo by Kaleidico on Unsplash # Add post description (optional)
+description: Métodos para construir software confiable. # Add post description (optional)
 img: whiteboard-planning.jpg # Add image post (optional)
-tags: [Blog, Programming, Análisis de Sistemas, Systems Analysis]
+tags: [Blog, Programming, Analisis, Sistemas]
 author: Joaquin Ipar # Add name author (optional)
 ---
 ##Ciclos de Vida
