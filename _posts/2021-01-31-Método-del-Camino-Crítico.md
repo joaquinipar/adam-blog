@@ -3,7 +3,7 @@ layout: post
 title:  Método del Camino Crítico
 date:   2021-01-31 15:30:00 +0300
 description: Algoritmo para el calculo de tiempo en un proyecto. # Add post description (optional)
-img: metodologia-oficina.jpg # Add image post (optional)
+img: project-management.jpg # Add image post (optional)
 tags: [Blog, Programming, Sistemas, Systems]
 author: Joaquin Ipar # Add name author (optional)
 ---
